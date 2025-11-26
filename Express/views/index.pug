@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Using Plain Html In Pug</title> -->
+    <title>#{title}</title>
+     style 
+        include ../static/style.css
+
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a herf="Home">Home</a></li>
+        <li><a herf="Contact">Contact</a></li>
+        <li><a herf="About">About</a></li>
+    </ul>
+
+</nav>
+<!-- <h1>This is Heading</h1> -->
+    <!--  <p>THIS IS A  PLAIN HTML USING PUG</p> -->
+    <!-- //- <p>#{content}</p> -->
+     <div class="container">
+        <h2>GET the gym membership now! fill this form</h2>
+
+        <form action="/" id="contact"> 
+            <input type="text" nme="name" id="name" placeholder="Enter Your Name">
+            <input type="text" nme="age" id="age" placeholder="Enter Your age">
+            <input type="text" nme="gender" id="gender" placeholder="Enter Your gender">
+            <textarea name="address" id="address" col=3 row=5 placeholder="Enter Your Address"></textarea>
+            <textarea name="more" id="more" col=3 row=5 placeholder="Enter  more about you "></textarea>
+            <button class="btn">Submit</button>
+        </form>
+     </div>
+</body>
+</html>

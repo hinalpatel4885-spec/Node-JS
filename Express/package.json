@@ -1,0 +1,16 @@
+{
+  "name": "cwh",
+  "version": "1.0.0",
+  "description": "This is a package we created while studying and exploring node and express",
+  "license": "ISC",
+  "author": "Hinal Patel",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pug": "^3.0.3"
+  }
+}
